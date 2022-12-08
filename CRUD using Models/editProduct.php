@@ -11,13 +11,14 @@
   }  */
 
 
-  /* UPDATE */
+  /* 
   if(count($_POST)>0) {
     mysqli_query($con,"UPDATE products SET first_name='" . $_POST['first_name'] . "', last_name='" . $_POST['last_name'] . "', city_name='" . $_POST['city_name'] . "' ,email='" . $_POST['email'] . "' WHERE userid='" . $_POST['userid'] . "'");
     $message = "Record Modified Successfully";
     }
     $result = mysqli_query($conn,"SELECT * FROM employee WHERE userid='" . $_GET['userid'] . "'");
     $row= mysqli_fetch_array($result);
+  */
 
 ?>
 

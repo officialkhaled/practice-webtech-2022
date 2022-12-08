@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
@@ -20,12 +20,33 @@ a:hover {
   cursor: pointer;
 }
 
-a:focus {
-  color: #dd6808;
-}
-
 .addBtn {
-  background-color: #0614d6;
+  background-color: rgb(194, 194, 194);
   font-weight: bold;
   border: none;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.addBtn:hover {
+  background-color: #080cdd;
+  color: #fff;
+}
+
+.addBtn a:hover {
+  background: #080cdd;
+  color: #fff;
+}
+
+input[type="submit"] {
+  background-color: rgb(194, 194, 194);
+  color: #0614d6;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #080cdd;
 }

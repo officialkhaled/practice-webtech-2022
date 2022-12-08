@@ -20,7 +20,7 @@
               <th style="padding: 15px">NAME</th>
               <th style="padding: 15px">PROFIT</th>
               <th colspan="2" style="padding: 15px">
-              <button><a href="addProduct.php">ADD PRODUCTS</a></button>
+              <button class="addBtn"><a href="addProduct.php">ADD PRODUCTS</a></button>
             </th>
             </tr>
   
