@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #0614d6;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #dd6808;
+  cursor: pointer;
+}
+
+a:focus {
+  color: #dd6808;
+}
+
+.addBtn {
+  background-color: #0614d6;
+  font-weight: bold;
+  border: none;
+}
