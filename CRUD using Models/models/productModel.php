@@ -2,12 +2,12 @@
 
   require_once 'dbConnect.php';
 
-  $name = $_POST['name'];
-  $buyPrice = $_POST['buyPrice'];
-  $sellPrice = $_POST['sellPrice'];
-  $profit = $_POST['sellPrice'] - $_POST['buyPrice'];
+  $name = $_POST['Name'];
+  $buyPrice = $_POST['Buying_Price'];
+  $sellPrice = $_POST['Selling_Price'];
+  $profit = $_POST['Buying_Price'] - $_POST['Selling_Price'];
 
-  $product = ['name'=>$name, 'buyPrice'=>$buyPrice, 'sellPrice'=> $sellPrice, 'profit'=>$profit];
+  $product = ['Name'=>$name, 'Buying_Price'=>$buyPrice, 'Selling_Price'=> $sellPrice, 'Profit'=>$profit];
 
   /* SQL QUERIES */
   function insertProduct ($product) {
