@@ -10,4 +10,9 @@
 //let dogImg = document.getElementById("dog-img");
 
 // *Selecting Methods => querySelectorAll => It selects all the elements that share that selector*
-let dogTrait = document.querySelectorAll(".item");
+//let dogTrait = document.querySelectorAll(".item");
+//console.log(dogTrait);
+
+// *Selecting Methods => querySelector => It selects only one element that has the selector*
+let dogTrait = document.querySelector("#dog-img"); // CSS selector inside the ()
+console.log(dogTrait);
